@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <script src="code.js"></script>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Training</title>
+        <link type="text/css" rel="stylesheet" media="screen" href="style.css" />
+    </head>
+    <body>
+        <div id="site">
+            <div id="header">
+                <h1>Training - Cypress</h1>
+            </div>
+            <hr>
+            <div id="content">
+                <label>Enter name: </label>
+                <input type="text" id="name"><br>
+                <br>
+                <select name="select" id="test">
+                    <option value="creation a test">Creation a test</option>
+                    <option value="making a test" selected>Making a test</option>
+                    <option value="deploying a test">Deploy a test</option>
+                </select><br>
+                <br>
+                <input type="file"  accept="image/*" name="image" id="file" onchange="loadFile(event)"><br>
+                <br>
+                <button class="buttonSend" onclick="myFunction()">Send</button>
+                <button class="buttonClear" onclick="functionClear()">Clear</button>
+                <br><br><br>
+                <hr>
+                <label id="demo"></label>
+                <p><img id="output" width="200" style="display: none;"/></p>
+            </div>
+            <hr>
+            <div id="footer">
+                <div class="division">
+                    <h5>Adriene</h5>
+                </div>
+                <div class="division">
+                    <h6>02/2021</h6>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
